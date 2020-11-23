@@ -316,10 +316,14 @@
 }
 
 .tree {
-  display: block;
+  display: flex;
   position: fixed;
   bottom: 70px;
   z-index: -3;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100vw;
+  box-sizing: border-box;
 }
 @keyframes tree-shaking1 {
   35% {
@@ -340,7 +344,6 @@
 }
 
 .tree i {
-  margin-right: 45px;
   color: var(--green);
 }
 
@@ -350,7 +353,6 @@
 }
 
 .tree i:last-child {
-  margin-left: 10px;
   color: #556052;
 }
 

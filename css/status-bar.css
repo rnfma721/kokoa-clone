@@ -25,12 +25,15 @@
 }
 .status-bar__left span {
   font-size: 20px;
+  display: inline-block;
 }
 .status-bar__middle {
   width: 50%;
 }
 .status-bar__middle span:first-child {
-  margin-right: 5px;
+  padding-left: 15px;
+  margin: 0px 5px;
+  display: inline-block;
 }
 .status-bar__right {
   width: 30%;
